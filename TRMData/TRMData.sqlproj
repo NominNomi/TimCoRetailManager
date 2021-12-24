@@ -71,6 +71,7 @@
     <Build Include="bdo\Tables\SaleDetail.sql" />
     <Build Include="bdo\Tables\Product.sql" />
     <Build Include="bdo\Tables\Inventory.sql" />
+    <Build Include="bdo\Stored Procedures\spUserLookup.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="TRMData.refactorlog" />

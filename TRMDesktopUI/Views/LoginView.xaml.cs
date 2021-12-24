@@ -24,5 +24,10 @@ namespace TRMDesktopUI.Views
         {
             InitializeComponent();
         }
+
+        private void UserName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
