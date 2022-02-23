@@ -34,7 +34,7 @@ namespace TRMDataManager.Library
         {
             string connectionString = GetConnectionString(connectionStringName);
 
-            using (IDbConnection connection = new SqlConnection())
+            using (IDbConnection connection = new SqlConnection(connectionString))
             {
                 connection.Execute(storeProcedure, parameters, 
                     commandType: CommandType.StoredProcedure);
